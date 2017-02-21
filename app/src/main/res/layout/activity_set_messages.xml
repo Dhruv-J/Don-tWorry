@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_set_messages"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dhruvjain1.dontworry.setMessages">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn4setTxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:id="@+id/btn5setTxt"
+        tools:text="Set text for the fifth button." />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:id="@+id/btn4setTxt"
+        tools:text="Set text for the fourth button."
+        android:layout_below="@+id/btn3setTxt"
+        android:layout_alignStart="@+id/btn3setTxt" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:id="@+id/btn2setTxt"
+        tools:text="Set text for the second button."
+        android:layout_below="@+id/btn1setTxt"
+        android:layout_alignEnd="@+id/btn4setTxt" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:id="@+id/btn3setTxt"
+        tools:text="Set text for the third button."
+        android:layout_below="@+id/btn2setTxt"
+        android:layout_alignEnd="@+id/btn1setTxt" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/btn1setTxt"
+        tools:text="Set text for the first button."
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btn5setTxt" />
+</RelativeLayout>
